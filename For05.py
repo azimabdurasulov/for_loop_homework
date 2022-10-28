@@ -7,4 +7,7 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    return
+    teskari = list(range(A, B + 1))
+    return teskari[::-1]
+
+print(main(5, 9))
