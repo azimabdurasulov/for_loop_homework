@@ -7,4 +7,12 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    i = 0
+    s = 0
+    for i in range(A, B):
+        s += i
+        i += 1
+        
+    return s
+
+print(main(3, 6))
