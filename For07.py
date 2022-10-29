@@ -6,4 +6,11 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    odd = 0
+    sum = 0
+    for odd in range(1, N, 2):
+        sum += odd
+        odd += 1
+    return sum
+
+print(main(12))
