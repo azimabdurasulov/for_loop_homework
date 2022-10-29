@@ -5,5 +5,12 @@ def main(price):
         price: int
     Returns:
         list: return  answer
-    """
-    return
+    """ 
+    sum = 0
+    list1 = []
+    for i in range(11):
+        sum += price
+        list1.append(sum)
+    return list1
+    
+print(main(2.25))
