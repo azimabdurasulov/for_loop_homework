@@ -5,5 +5,10 @@ def main(list1):
         list1: list
     Returns:
         list: return  answer
-    """
-    return
+    """ 
+    answer = []
+    for i in list1:
+        answer += [i.title()]
+    return list(answer)
+
+print(main(['rustam', 'diyor', 'alisher', 'bektosh']))
